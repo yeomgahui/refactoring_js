@@ -1,0 +1,24 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createStatementData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node chapter1_3/statement.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-cli": "^6.26.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  }
+}
